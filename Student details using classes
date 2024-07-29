@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+    class student{
+        public:
+        int roll;
+        string name;
+        int id;
+    
+    void print(){
+        cout<<"Details of the student are "<< endl<< "roll number: " " "<<roll<<endl<< "name:"<<" "<<name <<endl<<"id: "<<"  "<<id<<endl;
+    }};
+        int main(){
+            student student1;
+            student1.roll;
+            student1.name;
+            student1.id;
+            cout<<"enter the roll number of the student: "<<endl;
+            cin>>student1.roll;
+            cout<<"enter the name of the student:  "<<endl;
+            cin>>student1.name;
+            cout<<"enter the id of the student: "<<endl;
+            cin>>student1.id;
+            student1.print();
+        return 0;
+        }
